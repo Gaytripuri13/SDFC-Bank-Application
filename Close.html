@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Close Account</title>
+<link rel="stylesheet" type="text/css" href="CSS/NewAccount.css">
+<link rel ="icon" href="images/logo.png">
+<style>
+body {
+  background-image: url('images/background.jpeg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.login-container {
+    display: inline-block; 
+    margin-right: 20px; 
+    margin-left:40px;
+   
+  }
+  
+.blank-space{
+height: 5em;
+}
+ h3 {
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background color */
+    padding: 10px; /* Add padding to make the background visible */
+    border-radius: 20px; /* Add rounded corners */
+  }
+  .login-container form img {
+    position: absolute;
+    left: 50%; 
+    width: 230px;
+    height: 150px;
+}
+
+  .login-container#first-form {
+    position: absolute;
+    top: 250px; /* Adjust this value to position the third form below the second form */
+    left:2%;
+   
+}
+  .login-container#second-form {
+    position: absolute;
+    top:255px;
+    left:34%;
+    right:30%
+    
+}
+.login-container#third-form {
+    position: absolute;
+    top: 250px; 
+   left:65%;
+  
+}
+  
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="heading">
+      <h1>SDFC Bank</h1>
+      <h2>Extraordinary Services</h2>
+    </div>
+  </div>
+  <div class="navbar">
+   <a href="home.html">Home</a>
+    <a href="About.html">About Us</a>
+    <a href="Close.html">Close A/C</a>
+    <a href="Transfer.html">Transfer</a>
+    <a href="Withdraw.html">Withdraw</a>
+    <a href="Deposite.html">Deposit</a>
+    <a href="Balance.html">Balance</a>
+    <a href="Login.html">Login</a>
+    <a href="NewAccount.html">New Account</a>
+    </div>
+<img src="images/home.png">
+
+<div class="login-container" id="first-form">
+  <form action="NewAccount" method="post">
+    <h3>Services</h3> 
+    <ul>
+  <li>Checking Accounts</li>
+  <li>Savings Accounts</li>
+  <li>Money Market Accounts</li>
+  <li>Certificate of Deposit (CD) Accounts</li>
+  <li>Individual Retirement Accounts (IRAs)</li>
+  <li>Home Loans (Mortgages)</li>
+  <li>Auto Loans</li>
+  <li>Personal Loans</li>
+  <li>Business Loans</li>
+  <li>Credit Cards</li>
+  <li>Debit Cards</li>
+  <li>Online Banking</li>
+  <li>Mobile Banking</li>
+  <li>ATM Services</li>
+  <li>Wire Transfers</li>
+  <li>Foreign Currency Exchange</li>
+  <li>Wealth Management Services</li>
+  <li>Financial Planning</li>
+  <li>Investment Advisory Services</li>
+  <li>Retirement Planning</li>
+  <li>Insurance Services (Life, Health, Property, etc.)</li>
+  <li>Merchant Services (Payment Processing)</li>
+  <li>Safe Deposit Boxes</li>
+ 
+  
+</ul>
+  
+  </form>
+</div>
+<div class="login-container" id="second-form">
+  <form action="Close.jsp" method="post">
+    <h3>Close Account</h3> 
+    Account Number:<input type="number" name="AccountNumber"><p></p>
+    Name:<input type="text" name="name"><p></p>
+    Password:<input type="password" name="password"><p></p>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+  </form>
+</div>
+<div class="login-container" id="third-form">
+  <form action="NewAccount" method="post">
+    <h3>Welcome...</h3>
+    <div class="blank-space"></div>
+    
+    <img alt="employee" src="images/employee.png">
+<p>Say hello to a unique banking experience that meets all your requirements and guarantees personalized services. At QNB, we strive to provide comprehensive financial solutions tailored to your needs.Whether you're looking to save for the future, manage day-to-day expenses, or invest in your goals, we have the right products and services for you.</p>
+<p>Our range of accounts includes:</p>
+
+
+<p>At QNB, we understand the importance of digital banking in today's fast-paced world. That's why we provide computer-based services to give you 24/7 access to your accounts and financial information. Whether you prefer online banking, mobile banking, or ATMs, we have the tools you need to manage your finances anytime, anywhere.</p>
+
+  </form>
+</div>
+
+</body>
+</html>

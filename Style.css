@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.heading {
+	font-size:30px;
+    position: fixed;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    text-align: right;
+    margin-right: 20px; /* Add some margin to the right to prevent them from sticking to the edge */
+}
+
+h1, h2 {
+    margin: 0; /* Remove any default margin */
+}
+.navbar {
+  background-color: gray; /* Solid color */
+  overflow: hidden;
+  position: fixed;
+  bottom: 10%;
+width: 100%;
+ 
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: rgb(0, 0, 0); /* Light text color */
+  text-align: center;
+  padding: 20px 20px;
+ 
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
